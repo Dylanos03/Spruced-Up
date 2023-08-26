@@ -31,7 +31,7 @@ function Testimonials() {
   ];
 
   return (
-    <div className="flex justify-center">
+    <div id="Testimonials" className="flex justify-center">
       <div className="max-w-6xl">
         <div>
           <h3 className="text-2xl lg:text-4xl font-semibold text-ForestGreen-700">

@@ -3,6 +3,7 @@ import "../../index.css";
 import Logo from "../../Content/LogoLgW.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 
 function Navbar() {
   let Icon = faX;
@@ -64,24 +65,65 @@ function Navbar() {
           className="lg:flex lg:flex-row flex-col flex-wrap justify-between gap-16 items-center text-white text-left  lg:bg-transparent bg-ForestGreen-500 hidden my-8 lg:my-4"
         >
           <li className="lg:my-0 my-4 ">
-            <a href="#">Home</a>
+            <Link
+              to="Hero"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              onClick={handleClick}
+            >
+              Home
+            </Link>
           </li>
           <li className="lg:my-0 my-4 ">
-            <a href="#">About</a>
+            <Link
+              to="About"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+              onClick={handleClick}
+            >
+              About
+            </Link>
           </li>
           <li className="lg:my-0 my-4 ">
-            <a href="#">Services</a>
+            <Link
+              to="Portfolio"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              onClick={handleClick}
+            >
+              Portfolio
+            </Link>
           </li>
           <li className="lg:my-0 my-4 ">
-            <a href="#">Portfolio</a>
+            <Link
+              to="Testimonials"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              onClick={handleClick}
+            >
+              Testimonials
+            </Link>
           </li>
           <li className="lg:my-0 my-12">
-            <a
-              href="#"
+            <Link
               className="text-ForestGreen-500 bg-white px-6 py-2 rounded-md "
+              to="Contact"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              onClick={handleClick}
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

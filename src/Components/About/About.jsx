@@ -9,7 +9,7 @@ import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 function About() {
   return (
-    <div className="flex justify-center my-24">
+    <div id="About" className="flex justify-center my-24">
       <div className="flex lg:flex-row flex-col rounded-t-lg max-w-6xl lg:items-center gap-4">
         <div
           className="py-12 px-4 lg:w-1/2 text-center lg:text-left

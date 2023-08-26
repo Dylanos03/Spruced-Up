@@ -4,7 +4,10 @@ import HeroImg from "../../Content/Dresser002.jpeg";
 
 function Hero() {
   return (
-    <div className="bg-gradient-to-r from-ForestGreen-500 to-ForestGreen-700 flex justify-center">
+    <div
+      id="Hero"
+      className="bg-gradient-to-r from-ForestGreen-500 to-ForestGreen-700 flex justify-center"
+    >
       <div className=" h-screen text-white flex flex-col lg:flex-row lg:gap-12 justify-center lg:items-center lg:text-left max-w-7xl">
         <div>
           <img

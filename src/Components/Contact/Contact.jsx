@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="flex justify-center">
+    <div id="Contact" className="flex justify-center">
       <div className="max-w-6xl w-full my-24 px-4">
         <div className=" flex flex-col gap-6 w-full">
           <h3 className=" text-3xl font-bold">Contact</h3>
