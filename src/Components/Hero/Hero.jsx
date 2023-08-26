@@ -1,6 +1,7 @@
 import React from "react";
 import PlantBG from "../../Content/Group 12.png";
 import HeroImg from "../../Content/Dresser002.jpeg";
+import { Link } from "react-scroll";
 
 function Hero() {
   return (
@@ -22,17 +23,28 @@ function Hero() {
           </h1>
           <div className="my-7 flex flex-col lg:flex-row text-center align-middle justify-center lg:justify-start lg:text-left lg:m-0">
             <div className="lg:mx-0">
-              <a
-                href="#"
-                className="lg:mr-4 bg-white py-4 px-8 text-ForestGreen-700 rounded-lg"
+              <Link
+                className="lg:mr-4 bg-white py-4 px-8 text-ForestGreen-700 rounded-lg cursor-pointer"
+                to="Contact"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
               >
-                Book a consultation
-              </a>
+                Book a Consultation
+              </Link>
             </div>
             <div className="my-7 lg:m-0">
-              <a href="#" className="my-10 lg:m-0 underline">
+              <Link
+                to="Portfolio"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+                className="my-10 lg:m-0 underline cursor-pointer"
+              >
                 See my previous work
-              </a>
+              </Link>
             </div>
           </div>
         </div>

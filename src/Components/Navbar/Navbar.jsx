@@ -64,7 +64,7 @@ function Navbar() {
           ref={DropdownRef}
           className="lg:flex lg:flex-row flex-col flex-wrap justify-between gap-16 items-center text-white text-left  lg:bg-transparent bg-ForestGreen-500 hidden my-8 lg:my-4"
         >
-          <li className="lg:my-0 my-4 ">
+          <li className="lg:my-0 my-4 cursor-pointer">
             <Link
               to="Hero"
               spy={true}
@@ -76,7 +76,7 @@ function Navbar() {
               Home
             </Link>
           </li>
-          <li className="lg:my-0 my-4 ">
+          <li className="lg:my-0 my-4 cursor-pointer">
             <Link
               to="About"
               spy={true}
@@ -88,7 +88,7 @@ function Navbar() {
               About
             </Link>
           </li>
-          <li className="lg:my-0 my-4 ">
+          <li className="lg:my-0 my-4 cursor-pointer">
             <Link
               to="Portfolio"
               spy={true}
@@ -100,7 +100,7 @@ function Navbar() {
               Portfolio
             </Link>
           </li>
-          <li className="lg:my-0 my-4 ">
+          <li className="lg:my-0 my-4 cursor-pointer">
             <Link
               to="Testimonials"
               spy={true}
@@ -112,7 +112,7 @@ function Navbar() {
               Testimonials
             </Link>
           </li>
-          <li className="lg:my-0 my-12">
+          <li className="lg:my-0 my-12 cursor-pointer">
             <Link
               className="text-ForestGreen-500 bg-white px-6 py-2 rounded-md "
               to="Contact"
