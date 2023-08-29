@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import PlantBG from "../../Content/Group 12.png";
 import HeroImg from "../../Content/Dresser002.jpeg";
+import HeroImg2 from "../../Content/HeroImg2.jpeg";
+import HeroImg3 from "../../Content/HeroImg3.jpeg";
+
 import { Link } from "react-scroll";
 
 function Hero() {
@@ -48,8 +51,22 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div className="hidden lg:block rounded-3xl text-right w-1/2">
-          <img src={HeroImg} alt="Hero" className=" rounded-3xl" />
+        <div className="hidden lg:block relative rounded-3xl text-right w-1/2">
+          <img
+            src={HeroImg}
+            alt="Hero"
+            className=" animate-floating-1 rounded-3xl"
+          />
+          <img
+            src={HeroImg2}
+            alt="Hero2"
+            className="w-64 animate-floating-2 -top-16 left-96 absolute rounded-3xl"
+          />
+          <img
+            src={HeroImg3}
+            alt="Hero3"
+            className=" animate-floating-3 -left-12 top-3/4 absolute w-72 rounded-3xl "
+          />
         </div>
       </div>
     </div>

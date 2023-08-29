@@ -21,10 +21,18 @@ module.exports = {
           "0%": { transform: "translateX(0%)" },
           "100%": { transform: "translateX(100%)" },
         },
+        floating: {
+          "0%": { transform: "translateY(0%)" },
+          "50%": { transform: "translateY(5%)" },
+          "100%": { transform: "transformY(0%)" },
+        },
       },
       animation: {
         "sliding-left": "slideLeft 40s linear infinite",
         "sliding-right": "slideRight 40s linear infinite",
+        "floating-1": "floating 7s ease infinite",
+        "floating-2": "floating 5s ease infinite",
+        "floating-3": "floating 4s ease infinite",
       },
     },
     maxWidth: (theme, { breakpoints }) => ({

@@ -8,6 +8,7 @@ import { Link } from "react-scroll";
 function Navbar() {
   let Icon = faX;
   const [open, setOpen] = useState(false);
+
   const [icon, setIcon] = useState(faBars);
   const [scrolled, setScrolled] = useState(false);
 

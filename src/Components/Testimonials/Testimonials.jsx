@@ -41,14 +41,17 @@ function Testimonials() {
         <div className="flex flex-col lg:flex-row flex-wrap items-center justify-center my-8 gap-4">
           {TestimonialsDetails.map((value, index) => (
             <TestimonialBox
-              Key={index}
+              key={index}
               name={value.name}
               reviewText={value.text}
               rating={value.rating}
             />
           ))}
         </div>
-        <a href="#" className="underline">
+        <a
+          href="https://www.google.com/search?q=spruced+up+stuff&rlz=1C5CHFA_enGB1020GB1020&oq=spruced+up+stuff&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIPCAEQLhgnGK8BGMcBGIoFMgYIAhBFGDsyCAgDEAAYFhgeMggIBBAAGBYYHjIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPdIBCDM0MjRqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x47d82b0f3102d659:0x282c8d74c9f942f9,3,,,,"
+          className="underline"
+        >
           Leave a review
         </a>
       </div>
