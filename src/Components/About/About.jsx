@@ -10,9 +10,9 @@ import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 function About() {
   return (
     <div id="About" className="flex justify-center my-24">
-      <div className="flex lg:flex-row flex-col rounded-t-lg max-w-6xl lg:items-center gap-4">
+      <div className="flex  flex-col lg:flex-row  rounded-t-lg max-w-6xl lg:items-center gap-4">
         <div
-          className="py-12 px-4 lg:w-1/2 text-center lg:text-left
+          className="py-12 px-4 lg:w-2/3 text-center lg:text-left
         "
         >
           <h2 className="text-2xl lg:text-4xl py-4 font-semibold">About Me</h2>
@@ -20,7 +20,15 @@ function About() {
             I’ve always had an interest in interior design and love sprucing up
             the rooms in our house. <br />
             <br /> A change in circumstances gave me the opportunity to have a
-            go at up-cycling my own furniture and bring it back to life
+            go at up-cycling my own furniture and bring it back to life. <br />
+            <br />
+            Before, it was all too easy to sell it, or bin it, because it no
+            longer matched the room or colours. I started with a couple of
+            smaller items, an old coffee table and side table. <br /> <br /> I
+            was pleased with the results, so I decided to take myself to the
+            auction and plucked up the courage to bid on a couple of bits.{" "}
+            <br /> <br /> And there my new venture began and I haven’t looked
+            back!
           </p>
         </div>
         <div className="py-8 px-4 lg:w-1/2">
@@ -33,23 +41,23 @@ function About() {
             <div className="py-4">
               <FontAwesomeIcon
                 icon={faSterlingSign}
-                color="Black"
+                color="#164712"
                 className=" h-16 w-16 pb-4"
               />
               <h3 className="text-xl font-semibold">Sell</h3>
-              <p>
+              <p className="text-sm">
                 I'm selling some spruced up furniture, have a look on my
-                facebook and see what i'm offering
+                facebook and see what i'm offering!
               </p>
             </div>
             <div className="py-4">
               <FontAwesomeIcon
                 icon={faHandHoldingDollar}
-                color="Black"
+                color="#164712"
                 className=" h-16 w-16 pb-4"
               />
               <h3 className="text-xl font-semibold">Buy</h3>
-              <p>
+              <p className="text-sm">
                 Got some old furniture you don’t need? I can take that off your
                 hand if I see potential...
               </p>
@@ -57,36 +65,42 @@ function About() {
             <div className="py-4">
               <FontAwesomeIcon
                 icon={faPaintBrush}
-                color="Black"
+                color="#164712"
                 className=" h-16 w-16 pb-4"
               />
               <h3 className="text-xl font-semibold">Refurb</h3>
-              <p>
+              <p className="text-sm">
                 Got some furniture that needs a bit of TLC? Book a consultation
-                today and I can give you a price
+                today and I can give you a price!
               </p>
             </div>
             <div className="py-4">
               <div className="pb-2">
                 <h3 className="text-xl font-semibold">Follow me on socials!</h3>
               </div>
-              <div className="flex justify-center gap-2 items-center py-2">
+              <div className="flex justify-center gap-2 items-center py-2 cursor-pointer">
                 <FontAwesomeIcon
                   icon={faInstagram}
-                  color="Black"
+                  color="#164712"
                   className="h-8 w-8 cursor-pointer"
                   href="https://www.instagram.com/spruced_up_stuff/?hl=en"
                 />
-                <p>@spruced_up_stuff</p>
+                <a href="https://www.instagram.com/spruced_up_stuff/?hl=en">
+                  @spruced_up_stuff
+                </a>
               </div>
-              <div className="flex justify-center gap-2 items-center py-2">
+              <div className="flex justify-center gap-2 items-center py-2 cursor-pointer">
                 <FontAwesomeIcon
                   icon={faFacebook}
-                  color="Black"
+                  color="#164712"
                   className="h-8 w-8 cursor-pointer"
                   href="https://www.facebook.com/SprucedUpStuff"
                 />
-                <p>sprucedupstuff</p>
+                <p>
+                  <a href="https://www.facebook.com/SprucedUpStuff">
+                    sprucedupstuff
+                  </a>
+                </p>
               </div>
             </div>
           </div>

@@ -65,7 +65,7 @@ function Hero() {
           <img
             src={HeroImg3}
             alt="Hero3"
-            className=" animate-floating-3 -left-12 top-3/4 absolute w-72 rounded-3xl "
+            className=" animate-floating-3 -left-12 top-2/3 absolute w-72 rounded-3xl "
           />
         </div>
       </div>

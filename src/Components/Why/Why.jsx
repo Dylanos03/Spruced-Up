@@ -30,10 +30,11 @@ function Why() {
               <h3 className="text-lg font-medium">Sustainable</h3>
             </div>
             <p className="text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              porro quo ut sint perspiciatis illum, praesentium odit laborum
-              voluptatibus dolorem laudantium debitis repellat reiciendis est
-              esse? Placeat amet soluta corporis.
+              By opting for refurbished pieces, you're not only getting unique
+              and stylish items but also contributing to reducing waste and
+              conserving resources. Plus, the satisfaction of knowing you're
+              making an eco-friendly choice while sprucing up your surroundings
+              is truly rewarding!
             </p>
           </div>
           <div className="my-6">
@@ -46,10 +47,9 @@ function Why() {
               <h3 className="text-lg font-medium">Unique</h3>
             </div>
             <p className="text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              porro quo ut sint perspiciatis illum, praesentium odit laborum
-              voluptatibus dolorem laudantium debitis repellat reiciendis est
-              esse? Placeat amet soluta corporis.
+              When you're on the hunt for furniture with character, refurbished
+              pieces are your secret weapon. They bring a dash of uniqueness to
+              your space that you won't find in cookie-cutter designs.
             </p>
           </div>
           <div className="my-6">
@@ -62,10 +62,10 @@ function Why() {
               <h3 className="text-lg font-medium">Personalisable</h3>
             </div>
             <p className="text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              porro quo ut sint perspiciatis illum, praesentium odit laborum
-              voluptatibus dolorem laudantium debitis repellat reiciendis est
-              esse? Placeat amet soluta corporis.
+              With a coat of paint or some creative tweaks, you can transform a
+              piece into something that screams "you." So, if you're up for
+              creating a vibe that's uniquely yours, refurbished furniture is
+              the secret sauce – trust me, your digs will thank you for it!
             </p>
           </div>
         </div>
