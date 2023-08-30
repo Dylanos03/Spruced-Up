@@ -7,7 +7,7 @@ function Contact() {
         <div className=" flex flex-col gap-6 w-full">
           <h3 className=" text-3xl font-bold">Contact</h3>
           <form
-            action="https://formsubmit.co/ac8f42b5118476bd00c84024929a520f"
+            action="https://formsubmit.co/shetlya73@gmail.com"
             method="POST"
             className="flex flex-col gap-2 w-full"
           >
