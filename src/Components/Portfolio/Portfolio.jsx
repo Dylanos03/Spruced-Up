@@ -17,6 +17,8 @@ function Portfolio() {
               className=" px-2 h-72 "
               key={index}
               src={require("../../Content/ImageRow1/" + item.src + ".jpeg")}
+              alt={item.src}
+              loading="lazy"
             />
           ))}
         </div>
@@ -26,6 +28,8 @@ function Portfolio() {
               className=" px-2 h-72 "
               key={index}
               src={require("../../Content/ImageRow1/" + item.src + ".jpeg")}
+              alt={item.src}
+              loading="lazy"
             />
           ))}
         </div>
@@ -40,6 +44,8 @@ function Portfolio() {
               className=" px-2 h-72 "
               key={index}
               src={require("../../Content/ImageRow2/" + item.src + ".jpeg")}
+              alt={item.src}
+              loading="lazy"
             />
           ))}
         </div>
@@ -49,6 +55,8 @@ function Portfolio() {
               className=" px-2 h-72 "
               key={index}
               src={require("../../Content/ImageRow2/" + item.src + ".jpeg")}
+              alt={item.src}
+              loading="lazy"
             />
           ))}
         </div>
@@ -63,6 +71,8 @@ function Portfolio() {
               className=" px-2 h-72 "
               key={index}
               src={require("../../Content/ImageRow3/" + item.src + ".jpeg")}
+              alt={item.src}
+              loading="lazy"
             />
           ))}
         </div>
@@ -72,6 +82,8 @@ function Portfolio() {
               className=" px-2 h-72 "
               key={index}
               src={require("../../Content/ImageRow3/" + item.src + ".jpeg")}
+              alt={item.src}
+              loading="lazy"
             />
           ))}
         </div>

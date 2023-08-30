@@ -1,5 +1,5 @@
 import React from "react";
-import WhyImg from "../../Content/Dresser001.jpeg";
+import WhyImg from "../../Content/Dresser001.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLeaf,

@@ -8,7 +8,7 @@ function Footer() {
       <div className="mt-6 bg-gray-700 p-4 py-8 max-w-6xl w-full flex flex-col items-center">
         <img src={LogoW} alt="LogoW" className="max-w-xs px-4 " />
         <div className="w-full flex flex-col lg:flex-row gap-4 lg:gap-48 my-9 lg:justify-around">
-          <div className="flex flex-col gap-1 text-white">
+          <div className="flex flex-col gap-4 text-white">
             <p className="font-bold">Contact</p>
             <a href="https://www.facebook.com/SprucedUpStuff">FaceBook</a>
             <a href="https://www.instagram.com/spruced_up_stuff/">Instagram</a>
@@ -19,11 +19,12 @@ function Footer() {
               offset={-50}
               duration={500}
               className="cursor-pointer"
+              href="/"
             >
               Email
             </Link>
           </div>
-          <div className="flex gap-1 flex-col text-white">
+          <div className="flex gap-4 flex-col text-white">
             <p className="font-bold cursor-pointer">Navigation</p>
             <Link
               to="Hero"
@@ -32,6 +33,7 @@ function Footer() {
               offset={-50}
               duration={500}
               className="cursor-pointer"
+              href="/"
             >
               Top
             </Link>
@@ -42,6 +44,7 @@ function Footer() {
               offset={-50}
               duration={500}
               className="cursor-pointer"
+              href="/"
             >
               About
             </Link>
@@ -52,6 +55,7 @@ function Footer() {
               offset={-50}
               duration={500}
               className="cursor-pointer"
+              href="/"
             >
               Services
             </Link>

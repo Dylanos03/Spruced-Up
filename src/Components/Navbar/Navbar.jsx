@@ -6,10 +6,8 @@ import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 
 function Navbar() {
-  let Icon = faX;
   const [open, setOpen] = useState(false);
 
-  const [icon, setIcon] = useState(faBars);
   const [scrolled, setScrolled] = useState(false);
 
   const handleClick = () => {
@@ -27,8 +25,6 @@ function Navbar() {
   };
 
   function navChange() {
-    const Dropdown = DropdownRef.current;
-    const Navbar = NavbarRef.current;
     if (window.scrollY >= 90) {
       setScrolled(true);
     } else {
@@ -73,6 +69,7 @@ function Navbar() {
               offset={0}
               duration={500}
               onClick={handleClick}
+              href="/"
             >
               Home
             </Link>
@@ -85,6 +82,7 @@ function Navbar() {
               offset={-50}
               duration={500}
               onClick={handleClick}
+              href="/"
             >
               About
             </Link>
@@ -97,6 +95,7 @@ function Navbar() {
               offset={0}
               duration={500}
               onClick={handleClick}
+              href="/"
             >
               Portfolio
             </Link>
@@ -109,6 +108,7 @@ function Navbar() {
               offset={0}
               duration={500}
               onClick={handleClick}
+              href="/"
             >
               Testimonials
             </Link>
@@ -122,6 +122,7 @@ function Navbar() {
               offset={0}
               duration={500}
               onClick={handleClick}
+              href="/"
             >
               Contact
             </Link>

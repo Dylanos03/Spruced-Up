@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import PlantBG from "../../Content/Group 12.png";
-import HeroImg from "../../Content/Dresser002.jpeg";
-import HeroImg2 from "../../Content/HeroImg2.jpeg";
-import HeroImg3 from "../../Content/HeroImg3.jpeg";
+import HeroImg from "../../Content/Dresser002.webp";
+import HeroImg2 from "../../Content/HeroImg2.webp";
+import HeroImg3 from "../../Content/HeroImg3.webp";
 
 import { Link } from "react-scroll";
 
@@ -21,7 +21,7 @@ function Hero() {
           />
         </div>
         <div className="flex flex-col lg:w-1/2">
-          <h1 className="lg:text-5xl text-3xl lg:text-left text-center my-12 font-bold">
+          <h1 className="lg:text-5xl lg:px-0 px-8 text-3xl lg:text-left text-center my-12 font-bold">
             Affordable Wooden furniture refurbishment
           </h1>
           <div className="my-7 flex flex-col lg:flex-row text-center align-middle justify-center lg:justify-start lg:text-left lg:m-0">
@@ -33,6 +33,7 @@ function Hero() {
                 smooth={true}
                 offset={-50}
                 duration={500}
+                href="/"
               >
                 Book a Consultation
               </Link>
@@ -45,6 +46,7 @@ function Hero() {
                 offset={-50}
                 duration={500}
                 className="my-10 lg:m-0 underline cursor-pointer"
+                href="/"
               >
                 See my previous work
               </Link>
