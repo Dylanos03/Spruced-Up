@@ -16,7 +16,7 @@ function Why() {
         </div>
         <div className="flex flex-col p-4 lg:w-1/2 text-left">
           <div>
-            <h2 className="text-xl font-semibold text-center lg:text-left lg:text-3xl">
+            <h2 className="text-2xl font-semibold text-center lg:text-left lg:text-3xl">
               Why buy refurbished?
             </h2>
           </div>
@@ -27,9 +27,9 @@ function Why() {
                 style={{ color: "#0C2B0A" }}
                 className="h-8"
               />
-              <h3 className="text-lg font-medium">Sustainable</h3>
+              <h3 className="text-xl font-medium">Sustainable</h3>
             </div>
-            <p className="text-sm">
+            <p className="text-md">
               By opting for refurbished pieces, you're not only getting unique
               and stylish items but also contributing to reducing waste and
               conserving resources. Plus, the satisfaction of knowing you're
@@ -44,9 +44,9 @@ function Why() {
                 style={{ color: "#0C2B0A" }}
                 className="h-8"
               />
-              <h3 className="text-lg font-medium">Unique</h3>
+              <h3 className="text-xl font-medium">Unique</h3>
             </div>
-            <p className="text-sm">
+            <p className="text-md">
               When you're on the hunt for furniture with character, refurbished
               pieces are your secret weapon. They bring a dash of uniqueness to
               your space that you won't find in cookie-cutter designs.
@@ -59,9 +59,9 @@ function Why() {
                 style={{ color: "#0C2B0A" }}
                 className="h-8"
               />
-              <h3 className="text-lg font-medium">Personalisable</h3>
+              <h3 className="text-xl font-medium">Personalisable</h3>
             </div>
-            <p className="text-sm">
+            <p className="text-md">
               With a coat of paint or some creative tweaks, you can transform a
               piece into something that screams "you." So, if you're up for
               creating a vibe that's uniquely yours, refurbished furniture is

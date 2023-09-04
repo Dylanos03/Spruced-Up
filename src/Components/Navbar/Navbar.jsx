@@ -43,8 +43,8 @@ function Navbar() {
         ref={NavbarRef}
         className={
           scrolled
-            ? "min-w-screen-xl lg:flex flex-wrap items-center justify-evenly mx-auto p-4 gap-24 align-middle absolute w-full pt-8 lg:pt-4 bg-ForestGreen-500"
-            : "min-w-screen-xl lg:flex flex-wrap items-center justify-evenly mx-auto p-4 gap-24 align-middle absolute w-full pt-8 lg:pt-4"
+            ? "min-w-screen-xl lg:flex flex-wrap items-center justify-evenly mx-auto p-4 gap-24 align-middle absolute w-full  lg:pt-4 bg-ForestGreen-500"
+            : "min-w-screen-xl lg:flex flex-wrap items-center justify-evenly mx-auto p-4 gap-24 align-middle absolute w-full pt- lg:pt-4"
         }
       >
         <div className="flex justify justify-between">

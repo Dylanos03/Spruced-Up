@@ -9,14 +9,14 @@ import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 function About() {
   return (
-    <div id="About" className="flex justify-center my-24">
+    <div id="About" className="flex justify-center my-4 lg:my-24">
       <div className="flex  flex-col lg:flex-row  rounded-t-lg max-w-6xl lg:items-center gap-4">
         <div
-          className="py-12 px-4 lg:w-2/3 text-center lg:text-left
+          className=" px-4 lg:w-2/3 text-center lg:text-left
         "
         >
           <h2 className="text-2xl lg:text-4xl py-4 font-semibold">About Me</h2>
-          <p className="text-sm lg:text-lg">
+          <p className="text-md lg:text-lg">
             I’ve always had an interest in interior design and love sprucing up
             the rooms in our house. <br />
             <br /> A change in circumstances gave me the opportunity to have a
@@ -31,7 +31,7 @@ function About() {
             back!
           </p>
         </div>
-        <div className="py-8 px-4 lg:w-1/2">
+        <div className=" px-4 lg:w-1/2">
           <div className="py-8">
             <h2 className="text-2xl lg:text-4xl py-4 font-semibold">
               What I do
@@ -45,9 +45,15 @@ function About() {
                 className=" h-16 w-16 pb-4"
               />
               <h3 className="text-xl font-semibold">Sell</h3>
-              <p className="text-sm">
-                I'm selling some spruced up furniture, have a look on my
-                facebook and see what i'm offering!
+              <p className="text-md">
+                I'm selling some spruced up furniture, have a look on my{" "}
+                <a
+                  className="underline"
+                  href="https://www.instagram.com/spruced_up_stuff/?hl=en"
+                >
+                  facebook
+                </a>{" "}
+                and see what I'm offering!
               </p>
             </div>
             <div className="py-4">
@@ -57,7 +63,7 @@ function About() {
                 className=" h-16 w-16 pb-4"
               />
               <h3 className="text-xl font-semibold">Buy</h3>
-              <p className="text-sm">
+              <p className="text-md">
                 Got some old furniture you don’t need? I can take that off your
                 hand if I see potential...
               </p>
@@ -69,7 +75,7 @@ function About() {
                 className=" h-16 w-16 pb-4"
               />
               <h3 className="text-xl font-semibold">Refurb</h3>
-              <p className="text-sm">
+              <p className="text-md">
                 Got some furniture that needs a bit of TLC? Book a consultation
                 today and I can give you a price!
               </p>

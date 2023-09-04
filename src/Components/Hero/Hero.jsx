@@ -17,28 +17,28 @@ function Hero() {
           <img
             src={PlantBG}
             alt="BackgroundIMG"
-            className="absolute bottom-0 left-0"
+            className="absolute -bottom-10 z-0 left-0"
           />
         </div>
         <div className="flex flex-col lg:w-1/2">
           <h1 className="lg:text-5xl lg:px-0 px-8 text-3xl lg:text-left text-center my-12 font-bold">
-            Affordable Wooden furniture refurbishment
+            Affordable Wooden Furniture Refurbishment
           </h1>
           <div className="my-7 flex flex-col lg:flex-row text-center align-middle justify-center lg:justify-start lg:text-left lg:m-0">
-            <div className="lg:mx-0">
+            <div className="z-10 lg:mx-0">
               <Link
-                className="lg:mr-4 bg-white py-4 px-8 text-ForestGreen-700 rounded-lg cursor-pointer"
                 to="Contact"
                 spy={true}
                 smooth={true}
                 offset={-50}
                 duration={500}
+                className="lg:mr-4 z-40 bg-white py-4 px-8 text-ForestGreen-700 rounded-lg cursor-pointer"
                 href="/"
               >
                 Book a Consultation
               </Link>
             </div>
-            <div className="my-7 lg:m-0">
+            <div className="my-7 z-10 lg:m-0">
               <Link
                 to="Portfolio"
                 spy={true}
