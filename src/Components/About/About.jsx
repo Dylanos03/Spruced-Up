@@ -91,7 +91,10 @@ function About() {
                   className="h-8 w-8 cursor-pointer"
                   href="https://www.instagram.com/spruced_up_stuff/?hl=en"
                 />
-                <a href="https://www.instagram.com/spruced_up_stuff/?hl=en">
+                <a
+                  href="https://www.instagram.com/spruced_up_stuff/?hl=en"
+                  target="_blank"
+                >
                   @spruced_up_stuff
                 </a>
               </div>
@@ -103,7 +106,10 @@ function About() {
                   href="https://www.facebook.com/SprucedUpStuff"
                 />
                 <p>
-                  <a href="https://www.facebook.com/SprucedUpStuff">
+                  <a
+                    href="https://www.facebook.com/SprucedUpStuff"
+                    target="_blank"
+                  >
                     sprucedupstuff
                   </a>
                 </p>

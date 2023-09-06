@@ -17,7 +17,7 @@ function Hero() {
           <img
             src={PlantBG}
             alt="BackgroundIMG"
-            className="absolute -bottom-10 z-0 left-0"
+            className="absolute -bottom-36 z-0 left-0"
           />
         </div>
         <div className="flex flex-col lg:w-1/2">
@@ -57,17 +57,17 @@ function Hero() {
           <img
             src={HeroImg}
             alt="Hero"
-            className="lg:max-w-xs 2xl:max-w-md animate-floating-1 rounded-3xl"
+            className="max-w-xs 2xl:max-w-sm animate-floating-1 rounded-3xl"
           />
           <img
             src={HeroImg2}
             alt="Hero2"
-            className="lg:w-32 xl:w-48 2xl:w-72 animate-floating-2 -top-16 lg:left-48 xl:left-72 absolute rounded-3xl"
+            className="w-32 xl:w-48 2xl:w-48 animate-floating-2 -top-16 left-48 xl:left-72 absolute rounded-3xl"
           />
           <img
             src={HeroImg3}
             alt="Hero3"
-            className="lg:w-24 xl:w-44 2xl:w-72 animate-floating-3 -left-12 top-2/3 absolute  rounded-3xl "
+            className="w-24 xl:w-44 2xl:w-48 animate-floating-3 -left-12 top-2/3 absolute  rounded-3xl "
           />
         </div>
       </div>

@@ -51,6 +51,7 @@ function Testimonials() {
         <a
           href="https://www.google.com/search?q=spruced+up+stuff&rlz=1C5CHFA_enGB1020GB1020&oq=spruced+up+stuff&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIPCAEQLhgnGK8BGMcBGIoFMgYIAhBFGDsyCAgDEAAYFhgeMggIBBAAGBYYHjIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPdIBCDM0MjRqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x47d82b0f3102d659:0x282c8d74c9f942f9,3,,,,"
           className="underline"
+          target="_blank"
         >
           Leave a review
         </a>

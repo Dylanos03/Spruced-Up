@@ -10,8 +10,15 @@ function Footer() {
         <div className="w-full flex flex-col lg:flex-row gap-4 lg:gap-48 my-9 lg:justify-around">
           <div className="flex flex-col gap-4 text-white">
             <p className="font-bold">Contact</p>
-            <a href="https://www.facebook.com/SprucedUpStuff">FaceBook</a>
-            <a href="https://www.instagram.com/spruced_up_stuff/">Instagram</a>
+            <a href="https://www.facebook.com/SprucedUpStuff" target="_blank">
+              FaceBook
+            </a>
+            <a
+              href="https://www.instagram.com/spruced_up_stuff/"
+              target="_blank"
+            >
+              Instagram
+            </a>
             <Link
               to="Contact"
               spy={true}
@@ -62,7 +69,11 @@ function Footer() {
           </div>
         </div>
 
-        <a href="https://www.dylanosullivan.co.uk" className="text-white">
+        <a
+          href="https://www.dylanosullivan.co.uk"
+          className="text-white"
+          target="_blank"
+        >
           Built by Dylan O'Sullivan
         </a>
       </div>
