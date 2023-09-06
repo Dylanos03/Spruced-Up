@@ -53,21 +53,21 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div className="hidden lg:block relative rounded-3xl text-right w-1/2">
+        <div className="hidden lg:block relative rounded-3xl text-right w-1/3">
           <img
             src={HeroImg}
             alt="Hero"
-            className=" animate-floating-1 rounded-3xl"
+            className="lg:max-w-xs 2xl:max-w-md animate-floating-1 rounded-3xl"
           />
           <img
             src={HeroImg2}
             alt="Hero2"
-            className="w-64 animate-floating-2 -top-16 left-96 absolute rounded-3xl"
+            className="lg:w-32 xl:w-48 2xl:w-72 animate-floating-2 -top-16 lg:left-48 xl:left-72 absolute rounded-3xl"
           />
           <img
             src={HeroImg3}
             alt="Hero3"
-            className=" animate-floating-3 -left-12 top-2/3 absolute w-72 rounded-3xl "
+            className="lg:w-24 xl:w-44 2xl:w-72 animate-floating-3 -left-12 top-2/3 absolute  rounded-3xl "
           />
         </div>
       </div>

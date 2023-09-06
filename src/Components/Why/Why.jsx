@@ -10,7 +10,7 @@ import {
 function Why() {
   return (
     <div className="flex justify-center my-24">
-      <div className="flex flex-col lg:flex-row max-w-6xl lg:items-center">
+      <div className="flex items-center flex-col lg:flex-row max-w-6xl lg:items-center">
         <div className="p-4 lg:w-1/2">
           <img src={WhyImg} alt="Dresser" className="rounded-2xl" />
         </div>
