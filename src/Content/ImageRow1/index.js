@@ -17,7 +17,7 @@ const ImgCollection = [
   { id: 16, src: "PortfolioImg16" },
   { id: 17, src: "PortfolioImg17" },
   { id: 18, src: "PortfolioImg18" },
-  { id: 19, src: "PortfolioImg18" },
+  { id: 19, src: "PortfolioImg19" },
   { id: 20, src: "PortfolioImg20" },
   { id: 21, src: "PortfolioImg21" },
   { id: 22, src: "PortfolioImg22" },
@@ -25,19 +25,6 @@ const ImgCollection = [
   { id: 24, src: "PortfolioImg24" },
   { id: 25, src: "PortfolioImg25" },
   { id: 26, src: "PortfolioImg26" },
-  { id: 27, src: "PortfolioImg27" },
-  { id: 28, src: "PortfolioImg28" },
-  { id: 29, src: "PortfolioImg29" },
-  { id: 30, src: "PortfolioImg30" },
-  { id: 31, src: "PortfolioImg31" },
-  { id: 32, src: "PortfolioImg32" },
-  { id: 33, src: "PortfolioImg33" },
-  { id: 34, src: "PortfolioImg34" },
-  { id: 35, src: "PortfolioImg35" },
-  { id: 36, src: "PortfolioImg36" },
-  { id: 37, src: "PortfolioImg37" },
-  { id: 38, src: "PortfolioImg38" },
-  { id: 39, src: "PortfolioImg39" },
 ];
 
 export default ImgCollection;
